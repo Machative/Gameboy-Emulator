@@ -4,7 +4,9 @@ win :
 	nmake clean
 
 mac :
-	nmake clean
-	
+	g++ src/*.cpp -o build/GBEmulator.out
+	make clean
+
 clean :
-    rm -rf *.obj
+	rm -rf *.obj
+	rm -rf *.o
