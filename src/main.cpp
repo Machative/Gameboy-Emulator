@@ -6,5 +6,8 @@ int main()
 {
 	Test t;
 	std::cout << t.x << std::endl;
+
+	system("PAUSE");
+
 	return 0;
 }
